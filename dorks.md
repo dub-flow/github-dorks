@@ -1,4 +1,4 @@
-- PHP XSS: `/\becho\b.*\$_GET\b/ or /echo\s+\$_REQUEST/`
+- PHP XSS: `/\becho\b.*\$_GET\b/` or `/echo\s+\$_REQUEST/`
 - PHP XSS: `/^.*\becho\s+\$_GET\b.*$/`
 - PHP XSS (most FP-prone): `/^.*\becho\s+\$\b.*$/`
 - PHP SQL Injection: `/(SELECT|INSERT|UPDATE|DELETE)\s(.*\$_POST|.*\$_GET|.*\$_REQUEST)/`
